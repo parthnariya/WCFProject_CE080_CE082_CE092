@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory Management Service", "Inventory Management\Inventory Management Service.csproj", "{5379EE2D-9442-4696-9E41-77F8286325D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory_Management_Host", "Inventory_Management_Host\Inventory_Management_Host.csproj", "{C3C4A1D3-C61E-4306-8008-81E89486E1D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory_Management_Client", "Inventory_Management_Client\Inventory_Management_Client.csproj", "{0E2F64D7-61CE-4461-83ED-3E061C1981B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5379EE2D-9442-4696-9E41-77F8286325D0} = {5379EE2D-9442-4696-9E41-77F8286325D0}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5379EE2D-9442-4696-9E41-77F8286325D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5379EE2D-9442-4696-9E41-77F8286325D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5379EE2D-9442-4696-9E41-77F8286325D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5379EE2D-9442-4696-9E41-77F8286325D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3C4A1D3-C61E-4306-8008-81E89486E1D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C4A1D3-C61E-4306-8008-81E89486E1D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C4A1D3-C61E-4306-8008-81E89486E1D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C4A1D3-C61E-4306-8008-81E89486E1D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2F64D7-61CE-4461-83ED-3E061C1981B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2F64D7-61CE-4461-83ED-3E061C1981B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2F64D7-61CE-4461-83ED-3E061C1981B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2F64D7-61CE-4461-83ED-3E061C1981B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6C034E6-34EA-4E5B-A41E-F0167018A818}
+	EndGlobalSection
+EndGlobal
